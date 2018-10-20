@@ -6,10 +6,12 @@
     cd kafka_<version>
 
 On Linux:
+
     ./bin/zookeeper-server-start.sh config/zookeeper.properties
     ./bin/kafka-server-start.sh config/server.properties
     
-On windows:
+On Windows:
+
     ./bin/windows/zookeeper-server-start.sh config/zookeeper.properties
     ./bin/windows/kafka-server-start.bat config/server.properties
 
